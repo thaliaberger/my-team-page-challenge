@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.first-section {
+  margin: 70px 20px;
+}
+
+h1 {
+  font-family: "PT Serif", serif;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.first-section p {
+  font-size: 18px;
+  width: 430px;
+}
+
+.team-pics {
+  width: 100%;
+  margin: 0 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 20px;
+}
+
+.vertical {
+  transform: rotate(90deg);
+  font-family: "PT Serif", serif;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.team-pics h3 {
+  font-size: 14px;
+}
+
+.team-pics img {
+  width: 140px;
+}
+
+.team-pics > div {
+  display: flex;
+  align-items: flex-start;
+  width: 150px;
+}
+
+.margin-top {
+  margin-top: 50px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  color: #a9a9a9;
+  margin: 50px 0 20px 0;
+  font-size: 14px;
+}
+
+.teste {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 600px) {
+  .team-pics {
+    grid-template-columns: 1fr 1fr;
+    gap: 0 100px;
+  }
+
+  .team-pics img {
+    width: 200px;
+  }
+
+  .team-pics > div {
+    width: 220px;
+  }
+
+  .team-pics h3 {
+    font-size: 18px;
+  }
+
+  .team-pics p {
+    font-size: 12px;
+  }
+
+  .first-section {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .first-section p {
+    font-size: 16px;
+    width: 380px;
+  }
+
+  .margin-top-2 {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .team-pics {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0 100px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .team-pics {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0 100px;
+  }
+
+  .team-pics img {
+    width: 300px;
+  }
+
+  .team-pics > div {
+    width: 320px;
+  }
+}
